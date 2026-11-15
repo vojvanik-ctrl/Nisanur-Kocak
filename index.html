@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nisanur Koçak — Fashion design portfolio</title>
+<meta name="description" content="Nisanur Koçak, fashion design student exploring digital design through fashion.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23F3EFE5%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27Georgia,serif%27 font-size=%2719%27 fill=%27%231C3047%27 text-anchor=%27middle%27%3ENK%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/LiberationSerif-Regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<link rel="describedby" href="portfolio.json" type="application/json">
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<a class="skip" href="#work">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#work">
+      <span class="brand-name" data-profile-name>Nisanur Koçak</span>
+      <span class="brand-role"><span data-profile-study-program>Fashion design</span> student</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span>Menu</span>
+      <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M0 1h16M0 6h16M0 11h16" stroke="currentColor" stroke-width="1.4"/></svg>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://drive.google.com/file/d/1CY64vtKII0JZW6pvnaUq1rEkCiD_CLUP/view?usp=drivesdk" target="_blank" rel="noopener">CV<span class="sr-only"> (opens Google Drive)</span></a>
+      <button type="button" class="nav-motion" data-motion-toggle aria-pressed="false">Pause motion</button>
+    </nav>
+  </div>
+</header>
+
+<main class="cards" id="cards">
+  <!-- CARD 1: intro + selected projects -->
+  <section class="card card-work" id="work" aria-label="Work">
+    <div class="work-grid">
+      <div class="hero-text">
+        <div class="hero-copy">
+          <p class="tagline"><span class="tl">Exploring digital design</span> <span class="tl">through fashion.</span></p>
+          <p class="intro">Currently on an Erasmus exchange, exploring new ways to bring digital design into fashion.</p>
+        </div>
+        <a class="btn" href="#projects" data-explore>Explore my work</a>
+        <img class="deco tentacle-m" data-ambient src="assets/creatures/tentacle.png" width="306" height="432" alt="" aria-hidden="true">
+      </div>
+      <figure class="hero-portrait">
+        <img src="assets/portrait/portrait-ink.png" width="431" height="481" data-profile-illustration alt="Pencil-style drawn portrait of Nisanur Koçak with long wavy hair and a hoop earring.">
+      </figure>
+      <figure class="hero-art">
+        <img src="assets/hero/jacket-and-studies-ink.png" width="514" height="434" alt="Drawing of an oversized patterned jacket with wide lapels, beside two small front and back fashion figure studies.">
+      </figure>
+
+      <div class="projects-head" id="projects" tabindex="-1">
+        <h2>Selected projects</h2>
+        <span class="head-rule" aria-hidden="true"></span>
+        <span class="deco serpent-wrap" aria-hidden="true"><img class="serpent" data-ambient="slow" src="assets/creatures/sea-serpent.png" width="483" height="134" alt=""></span>
+      </div>
+
+      <div class="projects-wrap" role="region" aria-roledescription="carousel" aria-label="Selected projects">
+        <ol class="projects" id="project-list"></ol>
+        <div class="strip-controls">
+          <button type="button" class="strip-prev" aria-label="Previous project">‹</button>
+          <span class="strip-pos" aria-live="polite">1 / 4</span>
+          <button type="button" class="strip-next" aria-label="Next project">›</button>
+        </div>
+      </div>
+    </div>
+    <img class="deco hippo" data-ambient src="assets/creatures/hippocampus.png" width="492" height="239" alt="" aria-hidden="true">
+    <img class="deco wfish" data-ambient="slow" src="assets/creatures/winged-fish.png" width="443" height="281" alt="" aria-hidden="true">
+    <a class="next-card" href="#about"><span>About &amp; contact</span> <span aria-hidden="true">↓</span></a>
+  </section>
+
+  <!-- CARD 2: about + contact -->
+  <section class="card card-about" aria-label="About and contact">
+    <div class="about-grid">
+      <div class="about-col" id="about" tabindex="-1">
+        <h2>About</h2>
+        <p class="about-text">I am a Fashion Design student currently participating in the Erasmus exchange programme. I am mainly interested in digital design and exploring new ways to use it in fashion.</p>
+      </div>
+      <figure class="about-photo">
+        <img src="assets/portrait/portrait-original.jpeg" width="1200" height="1599" loading="lazy" data-profile-photo alt="Photograph of Nisanur Koçak.">
+      </figure>
+      <div class="contact-col" id="contact" tabindex="-1">
+        <h2>Contact</h2>
+        <dl class="contact-list">
+          <div><dt>Email</dt><dd><a href="mailto:nisakocak113@gmail.com">nisakocak113@gmail.com</a></dd></div>
+          <div><dt>CV</dt><dd><a href="https://drive.google.com/file/d/1CY64vtKII0JZW6pvnaUq1rEkCiD_CLUP/view?usp=drivesdk" target="_blank" rel="noopener">View CV on Google Drive</a></dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="deco serpent2-wrap" aria-hidden="true"><img class="serpent2" data-ambient="slow" src="assets/creatures/sea-serpent.png" width="483" height="134" alt=""></div>
+    <img class="deco siren" data-ambient src="assets/creatures/siren.png" width="491" height="368" alt="" aria-hidden="true">
+    <footer class="card-footer">
+      <span data-profile-name>Nisanur Koçak</span>
+      <a href="#work" class="to-top">Back to work ↑</a>
+    </footer>
+  </section>
+</main>
+
+<!-- PROJECT DETAIL overlay (rendered by js/site.js) -->
+<div id="detail-view" class="detail-view" hidden></div>
+
+<!-- Sea layers: fish, then the water surface on top -->
+<div class="fish-layer" id="fish-layer" aria-hidden="true"></div>
+<canvas class="water-layer" id="water-layer" aria-hidden="true"></canvas>
+
+<button type="button" class="motion-btn" data-motion-toggle aria-pressed="false">Pause motion</button>
+
+<dialog class="lightbox" id="lightbox" aria-labelledby="lb-caption">
+  <div class="lb-bar">
+    <p id="lb-caption" class="lb-caption"></p>
+    <div class="lb-actions">
+      <button type="button" class="lb-zoom" aria-pressed="false">Actual size</button>
+      <button type="button" class="lb-close">Close <span aria-hidden="true">✕</span></button>
+    </div>
+  </div>
+  <div class="lb-stage"><img alt=""></div>
+</dialog>
+
+<script src="js/sea.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
