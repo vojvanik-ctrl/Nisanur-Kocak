@@ -15,15 +15,14 @@ Statický web bez sestavení a instalace závislostí. Všechny obrázky i fonty
 
 Krátký český `bio` patří galerii; delší anglický text About zůstává samostatný. Texty projektů a jejich ilustrace se nemění.
 
-Vyplněno: jméno, studijní obor, český popisek a skutečně existující původní fotografie.
+Vyplněno: jméno, studijní obor, český popisek, původní fotografie a hotový razítkový portrét.
 
 Čeká na doplnění:
 
 - `countryCode`: země, kterou chce autorka v galerii zobrazovat. Bez potvrzení zůstává `null`.
 - `portfolioUrl`: skutečná veřejná HTTPS adresa včetně případného podadresáře. Bez potvrzení zůstává `null`.
-- `photoStamp`: čeká na novou fotografii s celou hlavou. Stávající zdroj má oříznuté temeno a nesplňuje zadání pro ořez. Není vytvořen neexistující odkaz ani použitá jiná ilustrace jako náhrada.
 
-Budoucí razítkový portrét patří do `assets/fmk/portrait-stamp.png`. Podrobnosti jsou v `assets/fmk/README.md`. Původní fotografie a kreslený portrét webu jsou zachovány.
+Hotový razítkový portrét je v `assets/fmk/portrait-stamp.png` a je zapojený v `photoStamp`. Má 1200 × 1500 px, poměr 4:5 a skutečně průhledné pozadí. Podle následného přání uživatele je portrét odzoomovaný a chybějící temeno a ramena jsou doplněné. Podrobnosti jsou v `assets/fmk/README.md`. Původní fotografie a kreslený portrét webu jsou zachovány.
 
 ## Lokální ověření
 
