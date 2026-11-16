@@ -13,15 +13,11 @@ Statický web bez sestavení a instalace závislostí. Všechny obrázky i fonty
 
 `portfolio.json` je společný zdroj jména, studijního oboru a původní fotografie. Web ho načítá při otevření a přebírá jméno do záhlaví, zápatí, popisků portrétů a titulku stránky, obor do záhlaví a původní fotografii do sekce About. Statické HTML obsahuje výchozí hodnoty pro případ nedostupného JSONu. Při jejich ruční změně může být vhodné aktualizovat i výchozí HTML, které používají některé roboty a náhledy bez JavaScriptu.
 
-Krátký český `bio` patří galerii; delší anglický text About zůstává samostatný. Texty projektů a jejich ilustrace se nemění.
+Krátký anglický `bio` patří galerii; delší text About zůstává samostatný. Texty projektů a jejich ilustrace se nemění.
 
-Vyplněno: jméno, studijní obor, český popisek, adresa v galerii (`portfolioUrl`: https://studentifmk.work/nisanur-kocak/), původní fotografie a hotový razítkový portrét.
+Vyplněno: jméno, studijní obor, anglický popisek, země (`countryCode`: `TR`), adresa v galerii (`portfolioUrl`: https://studentifmk.work/nisanur-kocak/), původní fotografie a hotový razítkový portrét.
 
-Čeká na doplnění:
-
-- `countryCode`: země, kterou chce autorka v galerii zobrazovat. Bez potvrzení zůstává `null`.
-
-Obor zůstává anglicky („Fashion Design“), protože ho web zobrazuje v anglickém záhlaví.
+Obor i popisek jsou anglicky, stejně jako celý web.
 
 Razítkový portrét pro galerii je v `assets/fmk/portrait-stamp-v2.png` a je zapojený v `photoStamp`. Má 1200 × 1500 px, poměr 4:5 a skutečně průhledné pozadí. Podrobnosti jsou v `assets/fmk/README.md`. Původní fotografie, první verze portrétu a kreslený portrét webu jsou zachovány.
 
